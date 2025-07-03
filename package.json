@@ -20,7 +20,7 @@
     "preinstall": "printf 'always-auth=true\nregistry=https://registry.npmjs.org\n@geenee:registry=https://npm.geenee.ar\n//npm.geenee.ar/:_authToken=%s\n' \"$GEENEE_NPM_TOKEN\" > .npmrc",
     "postinstall": "npm run post:wasm",
     "post:wasm": "copyfiles -f \"node_modules/@geenee/bodytracking/dist/*.wasm\" public/",
-    "custom:install": "npm run preinstall && npm run install && npm run postinstall"
+    "custom:install": "npm run preinstall && npm install && npm run postinstall"
 
   },
   "browserslist": {
