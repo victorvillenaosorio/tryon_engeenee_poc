@@ -17,20 +17,20 @@ const modelMap: {
         outfit?: OutfitParams
     }
 } = {
-    onesie: {
-        file: "modeloreadyplayerme.glb", avatar: false,
+    maam: {
+        file: "Untitled7_maam_Apose.glb", avatar: false,
         outfit: {
             occluders: [/Head/, /Body/],
-            hidden: [/Eye/, /Teeth/, /Footwear/, /Glasses/, /Head/, /Hair/]
+            hidden: []
+        }
+    },
+    onesie: {
+        file: "onesie_without_headwear.glb", avatar: false,
+        outfit: {
+            occluders: [/Head/, /Body/],
+            hidden: [/Eye/, /Teeth/, /Bottom/, /Footwear/, /Glasses/, /Head/, /Headwear/]
         }
     }
-    /* onesie: {
-        file: "onesie.glb", avatar: false,
-        outfit: {
-            occluders: [/Head/, /Body/],
-            hidden: [/Eye/, /Teeth/, /Bottom/, /Footwear/, /Glasses/, /Head/]
-        }
-    } */
     /*onesie: {
         file: "polo_optimizado.glb", avatar: false,
         outfit: {
