@@ -18,10 +18,10 @@ const modelMap: {
     }
 } = {
     maam: {
-        file: "Untitled7_maam_Apose.glb", avatar: false,
+        file: "vestido_MAAM_rigged_ready.glb", avatar: false,
         outfit: {
             occluders: [/Head/, /Body/],
-            hidden: []
+            hidden: [/Eye/, /Teeth/, /Bottom/, /Footwear/, /Glasses/, /Head/, /Headwear/, /LeftLeg/, /RightLeg/, /LeftFoot/, /RightFoot/, /LeftUpLef/, /RightUpLef/],
         }
     },
     onesie: {
