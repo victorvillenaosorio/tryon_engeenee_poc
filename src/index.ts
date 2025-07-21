@@ -24,6 +24,13 @@ const modelMap: {
             hidden: [/Eye/, /Teeth/, /Bottom/, /Footwear/, /Glasses/, /Head/, /Headwear/, /LeftLeg/, /RightLeg/, /LeftFoot/, /RightFoot/, /LeftUpLef/, /RightUpLef/],
         }
     },
+    look: {
+        file: "look_1_scaled_ready_3.glb", avatar: false,
+        outfit: {
+            occluders: [/Head/, /Body/],
+            hidden: [/Eye/, /Teeth/, /Bottom/, /Footwear/, /Glasses/, /Head/, /Headwear/, /LeftLeg/, /RightLeg/, /LeftFoot/, /RightFoot/, /LeftUpLef/, /RightUpLef/],
+        }
+    },
     onesie: {
         file: "onesie_without_headwear.glb", avatar: false,
         outfit: {
